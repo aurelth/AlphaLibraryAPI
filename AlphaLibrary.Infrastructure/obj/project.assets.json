@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AlphaLibraryAPI.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AlphaLibraryAPI.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AlphaLibraryAPI.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AlphaLibraryAPI.Application.dll": {}
+        }
+      },
+      "AlphaLibraryAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AlphaLibraryAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AlphaLibraryAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlphaLibraryAPI.Application/1.0.0": {
+      "type": "project",
+      "path": "../AlphaLibraryAPI.Application/AlphaLibraryAPI.Application.csproj",
+      "msbuildProject": "../AlphaLibraryAPI.Application/AlphaLibraryAPI.Application.csproj"
+    },
+    "AlphaLibraryAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AlphaLibraryAPI.Domain/AlphaLibraryAPI.Domain.csproj",
+      "msbuildProject": "../AlphaLibraryAPI.Domain/AlphaLibraryAPI.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AlphaLibraryAPI.Application >= 1.0.0",
+      "AlphaLibraryAPI.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aurel\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibrary.Infrastructure\\AlphaLibraryAPI.Infrastructure.csproj",
+      "projectName": "AlphaLibraryAPI.Infrastructure",
+      "projectPath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibrary.Infrastructure\\AlphaLibraryAPI.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Aurel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibrary.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Aurel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Application\\AlphaLibraryAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Application\\AlphaLibraryAPI.Application.csproj"
+            },
+            "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Domain\\AlphaLibraryAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Domain\\AlphaLibraryAPI.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.100, 9.0.100]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

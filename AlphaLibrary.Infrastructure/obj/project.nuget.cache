@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pvog6hV7TXw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibrary.Infrastructure\\AlphaLibraryAPI.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
+  ],
+  "logs": []
+}
