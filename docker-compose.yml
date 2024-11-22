@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  alpha_postgres:
+    image: postgres:15
+    container_name: alpha_postgres
+    environment:
+      POSTGRES_USER: alpha_user001
+      POSTGRES_PASSWORD: alpha_1124
+      POSTGRES_DB: alpha_library
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  alpha_api:
+    build:
+      context: .
+      dockerfile: AlphaLibraryAPI.Presentation/Dockerfile
+    container_name: alpha_api
+    ports:
+      - "5000:5000"
+    depends_on:
+      - alpha_postgres
+    environment:
+      ASPNETCORE_URLS: "http://+:5000"
+      ConnectionStrings__LibraryDb: "Host=alpha_postgres;Port=5432;Database=alpha_library;Username=alpha_user001;Password=alpha_1124"
+
+volumes:
+  postgres_data:
+    

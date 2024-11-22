@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "r52LPGhuCkU=",
+  "dgSpecHash": "8lZksKivSkk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Domain\\AlphaLibraryAPI.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.11\\microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",
     "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
   ],
   "logs": []

@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZvcOuu50LwI=",
+  "dgSpecHash": "P9t+0Ku+aI0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Aurel\\source\\repos\\AlphaLibraryAPI.Presentation\\AlphaLibraryAPI.Application\\AlphaLibraryAPI.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.11\\microsoft.entityframeworkcore.abstractions.8.0.11.nupkg.sha512",
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Aurel\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.100\\microsoft.net.sdk.compilers.toolset.9.0.100.nupkg.sha512"
   ],
   "logs": []
